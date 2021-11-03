@@ -22,7 +22,7 @@ class VillagerContainer extends Component {
 
     render() {
         const { loading, villager } = this.state;
-
+        console.log('HEHEHRHEHREH', villager)
         if(loading){
             return <h1>Loooaddinggg......</h1>
         }
