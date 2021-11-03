@@ -5,16 +5,16 @@ const VillagerInfo = ({villager}) => (
     <div>
         <img src={villager.image} alt={villager.name} />
         <figcaption>
-            <p>{villager.name}</p>
-            <p>{villager.japaneseName}</p> 
-            <p>{villager.quote}</p>
-            <p>{villager.gender}</p>
-            <p>{villager.personality}</p> 
-            <p>{villager.species}</p> 
-            <p>{villager.birthday}</p> 
-            <p>{villager.phrase}</p> 
-            <p>{villager.skill}</p> 
-            <p>{villager.goal}</p> 
+            <p>Name: {villager.name}</p>
+            <p>Japanese Name: {villager.japaneseName}</p> 
+            <p>Quote {villager.quote}</p>
+            <p>Gender: {villager.gender}</p>
+            <p>Personality: {villager.personality}</p> 
+            <p>Species: {villager.species}</p> 
+            <p>Birthday: {villager.birthday}</p> 
+            <p>Phrase: {villager.phrase}</p> 
+            <p>Skill: {villager.skill}</p> 
+            <p>Goal: {villager.goal}</p> 
             <p>coffee: {villager.coffee.sugar}, {villager.coffee.roast}, {villager.coffee.milk}</p>
         </figcaption>
     </div>
