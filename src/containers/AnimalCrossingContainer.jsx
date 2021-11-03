@@ -10,6 +10,8 @@ class AnimalCrossingContainer extends Component {
     
     async componentDidMount() {
         const villagers = await fetchVillagers();
+        
+
         this.setState({
             villagers,
             loading: false
@@ -17,7 +19,9 @@ class AnimalCrossingContainer extends Component {
     }
     
     render() { 
+
         const { loading, villagers } = this.state;
+
         if (loading) {
             return <h1>Loading...</h1>;
         }

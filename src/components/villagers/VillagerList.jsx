@@ -8,6 +8,7 @@ const VilllagerList = ({ villagers }) => {
         <li key={villager._id}>
 
             <Villager 
+            id = {villager._id}
             name={villager.name}
             image={villager.image}
             personality={villager.personality}
